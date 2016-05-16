@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Bootstrap Example</title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Wiz khalifa</a>
+    </div>
+    <ul class="nav navbar-nav">
+      
+      <li><a href="#">Eventos</a></li>
+      <li><a href="#">Contato</a></li> 
+       
+    </ul>
+  </div>
+</nav>
+
+ 
+
+<div class="container">
+
+<style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+<div class="container">
+  <h2>Carousel</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="wiz k.jpg" alt="Wiz Khalifa" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="wiz.jpg" alt="Wiz Khalifa" width="460" height="345">
+      </div>
+    
+      <div class="item">
+        <img src="Daddy cat.jpg" alt="Wiz Khalifa" width="460" height="345">
+      </div>
+      
+      </div>
+    
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Próxima</span>
+    </a>
+  </div>
+</div>
+
+<div class="container">
+  <ul class="nav nav-tabs nav-justified">
+	  <li class="active"><a data-toggle="tab" href="#home">Calendário de Eventos</a></li>
+	  <li><a data-toggle="tab" href="#menu1">Últimos Shows</a></li>
+	  <li><a data-toggle="tab" href="#menu2">Testemunhos</a></li>
+	
+	</ul>
+	<div class="tab-content">
+		<div id="home" class="tab-pane fade in active">
+		  <h3>Calendário de Eventos</h3>
+		  <p><div class="row">
+
+   		
+     <table class="table table-striped">
+
+    <thead>
+
+      <tr>
+
+        <th>Cidade</th>
+
+        <th>Local</th>
+
+        <th>Data</th>
+
+      </tr>
+
+    </thead>
+
+    <tbody>
+
+      <tr>
+
+        <td>São Paulo</td>
+
+        <td><abbr title="Espaço das Americas">EDA</abbr></td>
+
+        <td>23/02/2016</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Florianópolis</td>
+
+        <td>Atlantica Club</td>
+
+        <td>26/02/2016</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Rio de Janeiro</td>
+
+        <td>HSBC</td>
+
+        <td>28/02/2016 <span class="label label-default">Novo</span></td>
+        
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div></p>
+		</div>
+        
+		<div id="menu1" class="tab-pane fade">
+		  <h3>Últimos Shows</h3>
+		   
+     <div class="container">
+   <div class="row">
+
+  <div class="panel-group">
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a data-toggle="collapse" href="#collapse1">Fotos <small> Dos shows!</small></a>
+		  </h4>
+		</div>
+       
+        
+		<div id="collapse1" class="panel-collapse collapse">
+		  <div class="panel-body">
+          
+          <div class="col-sm-4">
+          <img src="show1.jpg" class="img-responsive" style="max-width: 200px;"/>
+          </div>
+          
+          <div class="col-sm-4">
+          <img src="show2.jpg" class="img-responsive" style="max-width: 200px;"/>
+          </div>
+          
+          <div class="col-sm-4">
+          <img src="show3.jpg" class="img-responsive" style="max-width: 200px;"/>
+          </div>
+          
+          </div>
+          
+		</div>
+        </div>
+		</div>
+	  </div>
+	</div>
+</div>
+
+
+		
+        
+		<div id="menu2" class="tab-pane fade">
+		 
+		  <p>  <div class="container">
+     <div class="row">
+
+  <h1>Testemunhos <small> De quem foi e gostou!</small></h1>
+
+  
+ <div class="col-md-6">
+     <blockquote>
+       
+    <p>Foi o melhor show da miha vida!!! Ele estava incrivel, não parou nem um minuto , todos estavam pulando e dançando o show inteiro!! O WIz é o cara</p>
+
+    <footer>Caio silva</footer>
+
+  </blockquote>
+</div>
+  
+<div class="col-md-6">
+  <blockquote>
+      
+    <p>A vibe do show foi de mais, a energia que ele passou para o publico foi sensacional... até quem não curte muito achou o show muito louco!!</p>
+
+    <footer>Lucas Ramiro Santos</footer>
+    
+  </blockquote>
+ </div>
+</div>
+</div></p>
+		</div>
+</div>
+</div>
+</div>
+
+   <div class="container">
+     <div class="row">
+ <h1>Entre em Contato <small>perguntas, críticas, sugestões</small></h1>
+  <form role="form">
+    <div class="form-group">
+      <label for="nome">Nome:</label>
+      <input type="nome" class="form-control" id="nome" placeholder="nome">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="email">
+    </div>
+    
+    
+      <div class="dropdown">
+  <small> Estado</small> <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Acre
+		<span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="dropdown">Alagoas</a></li>
+    <li><a href="dropdown">Amapá</a></li>
+    <li><a href="dropdown">Amazonas</a></li>
+  </ul>
+  
+  <div class="btn-group"> 
+  <button type="button" class="btn btn-primary active">Feminino</button>
+<button type="button" class="btn btn-default active">Masculino</button></div>
+
+
+<div class="col-sm-36">
+
+<small>Mensagem:</small> <div class="panel panel-default">
+    <div class="panel-body">
+    </div>
+  </div>
+  <button type="submit" 
+		class="btn btn-success">
+			Enviar
+	 </button>
+  
+  </form>
+</body>
+</html>
